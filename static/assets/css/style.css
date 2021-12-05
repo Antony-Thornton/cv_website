@@ -4,18 +4,77 @@
 #about {
     background-color: white;
     width: 100%;
-    padding: 0 10%;
+    padding: 0 20%;
 }
 
 .about_div {
-    background-color: purple;
+    background-color: WHITE;
     height: 500px;
     display: inline-block;
     width: 100%;
-    margin: 1px;
+    margin: 10px;
+
+}
+
+.about_div h1{
+    color: rgb(45, 45, 197);
+
+}
+
+
+#contact {
+    text-align: center;
+}
+
+.button {
+    border-radius: 25px ;
+    border: 2px solid rgb(45, 45, 197);
+    background: white;
+    color: black;
+    width: 200px;
+}
+
+.button:hover{
+    background-color: rgb(45,45,197);
+    color: white;
+    text-decoration: none;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.about_div_header {
+    text-align: center;
+    background-color: rgb(45, 45, 197);
+    color: white;
+    font-size: xx-large;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 20px;
+}
+
+.about_div_inner {
+    height: 100%;
 }
 
 
 
-/* ***** NavBar ***** */
+#profile_pic {
+    width: 25%;
+    height: 50%;
+    text-align: left;
+}
+
+/* ***** NavBar *****
+
+
+
+<p style = "border-width:4px; 
+border-top-style:solid;
+border-bottom-style:dashed;
+border-left-style:groove;
+border-right-style:double;">
+This is a a border with four different styles.
 

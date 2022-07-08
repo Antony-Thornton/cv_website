@@ -67,6 +67,18 @@ a, a:hover, a:focus, a:active {
     text-align: left;
 }
 
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 /* ***** NavBar *****
 
 

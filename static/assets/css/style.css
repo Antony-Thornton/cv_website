@@ -74,7 +74,7 @@ a, a:hover, a:focus, a:active {
 
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -90,3 +90,20 @@ border-left-style:groove;
 border-right-style:double;">
 This is a a border with four different styles.
 
+/* Home Page */
+
+.col-home {
+    height: auto;
+    margin: 10px 0px;
+}
+
+
+.left-border-blue {
+    border-left: 3px solid blue;
+    padding-left: 10px;
+}
+
+.left-border-green {
+    border-left: 3px solid rgb(2, 255, 2);
+    padding-left: 10px;
+}

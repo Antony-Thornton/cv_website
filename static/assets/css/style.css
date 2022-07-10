@@ -1,4 +1,6 @@
-
+header {
+    background-color: #0A64BC;
+}
 
 
 #about {
@@ -79,6 +81,20 @@ footer {
     width: 100%;
 }
 
+a {
+    margin: 2px;
+}
+
+
+.bg-color {
+    background-color: #0A64BC;
+    color: white;
+}
+
+.txt-color {
+    color: #0A64BC;
+}
+
 /* ***** NavBar *****
 
 
@@ -99,11 +115,43 @@ This is a a border with four different styles.
 
 
 .left-border-blue {
-    border-left: 3px solid blue;
+    /* border-left: 3px solid blue; */
+    border-left: 3px solid white;
     padding-left: 10px;
 }
 
 .left-border-green {
-    border-left: 3px solid rgb(2, 255, 2);
+    /* border-left: 3px solid rgb(2, 255, 2);*/
+    border-left: 3px solid white;
     padding-left: 10px;
+}
+
+.card-width {
+    width: 18rem;
+    border: none;
+    min-height: 20rem;
+}
+
+@media (max-width: 767px) {
+    .left-border-blue {
+        border-left: 3px solid white;
+        padding-left: 10px;
+    }
+    
+    .left-border-green {
+        border-left: 3px solid white;
+        padding-left: 10px;
+    }
+
+    .container {
+        text-align: center;
+    }
+    .col-home {
+        text-align: center;
+    }
+    
+    .card-width {
+        width: 100%;
+        border: none;
+    }
 }

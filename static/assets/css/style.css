@@ -130,7 +130,10 @@ This is a a border with four different styles.
     width: 18rem;
     border: none;
     min-height: 20rem;
+    margin-right: 10px;
 }
+
+
 
 @media (max-width: 767px) {
     .left-border-blue {
@@ -153,5 +156,12 @@ This is a a border with four different styles.
     .card-width {
         width: 100%;
         border: none;
+    }
+    .card-body{
+        min-height: 260px;
+    }
+    
+    .card-img-top {
+        max-height: 286px;
     }
 }
